@@ -21,7 +21,7 @@ export default class CardBack extends Component {
 
   render() {
     return (
-      <div className="title">{this.props.title}>
+      <div className="title">{this.props.title}
         <h3 className="title"></h3>
         <span />
         { this.generateRatingElement()}
